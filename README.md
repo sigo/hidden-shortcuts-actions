@@ -1,14 +1,49 @@
 # Secret Actions (shortcut)
-Shortcut for iOS and macOS that contains 32 hidden built-in actions
+Shortcut for iOS and macOS that contains 32 actions that are normally hidden from users in Shortcuts app
 \
 \
 [___Install latest version___](https://github.com/paralevel/secret-actions.shortcut/releases)
 <br>
 <br>
 
-### List of actions
+### Sign the shortcut from source
+###
+macOS:
+~~~
+shortcuts sign -m anyone -i unsigned.shortcut -o signed.shortcut
+~~~
+<sup>_The command succeeds despite the errors (not related to this particular shortcut)_</sup>
 
-_(Name and description taken from the action’s Get Info dialog)_
+iOS:
+\
+\
+&emsp;Use RoutineHub's signing service
+
+<br>
+
+### How to find hidden Shortcuts actions
+###
+1. Copy for example the hidden action in the following shortcut to the clipboard: https://www.reddit.com/r/ios/comments/1h8akxn/comment/m0sgf4d/
+
+3. Convert the action in the clipboard to source with this shortcut: https://www.icloud.com/shortcuts/65d36be39c5a49cc8121e4ea652b606e
+
+3. Open the source in a text editor
+
+4. Replace `AutoBrightness` with e.g. `BoldText` in the value for `WFWorkflowActionIdentifier`
+
+5. Copy the edited source to the clipboard
+
+6. Convert the clipboard content to a pasteable action with the following shortcut (requires Actions app): https://www.icloud.com/shortcuts/49dfc2487764413a88c1329703dd76d1
+
+7. Paste it into a shortcut
+###
+You've now reconstructed the unofficial _Toggle Bold Text_ action
+<br>
+<br>
+<br>
+
+### Complete list of actions
+_<sup>Name and description taken from the action’s Get Info dialog</sup>_
 
 <br>
 
@@ -18,33 +53,33 @@ _(Name and description taken from the action’s Get Info dialog)_
 
 <br>
 
-|Update {Auto-Brightness} <sup>iOS</sup>|
+|Update [Auto-Brightness] <sup>iOS</sup>|
 |:-|
-|Change the {Auto-Brightness} value of {Auto-Brightness}<br><br>__Result__<br>Auto-Brightness|
+|Change the [Auto-Brightness] value of [Auto-Brightness]<br><br>__Result__<br>Auto-Brightness|
 
 <br>
 
-|Update {Bold Text} <sup>iOS</sup>|
+|Update [Bold Text] <sup>iOS</sup>|
 |:-|
-|Change the {Bold Text} value of {Bold Text}<br><br>__Result__<br>Bold Text|
+|Change the [Bold Text] value of [Bold Text]<br><br>__Result__<br>Bold Text|
 
 <br>
 
-|Update {On/Off Labels} <sup>iOS</sup>|
+|Update [On/Off Labels] <sup>iOS</sup>|
 |:-|
-|Change the {On/Off Labels} value of {On/Off Labels}<br><br>__Result__<br>On/Off Labels|
+|Change the [On/Off Labels] value of [On/Off Labels]<br><br>__Result__<br>On/Off Labels|
 
 <br>
 
-|Update {Differentiate Without Color} <sup>iOS</sup>|
+|Update [Differentiate Without Color] <sup>iOS</sup>|
 |:-|
-|Change the {Differentiate Without Color} value of {Differentiate Without Color}<br><br>__Result__<br>Differentiate Without Color|
+|Change the [Differentiate Without Color] value of [Differentiate Without Color]<br><br>__Result__<br>Differentiate Without Color|
 
 <br>
 
-|Update {Show Borders} <sup>iOS</sup>|
+|Update [Show Borders] <sup>iOS</sup>|
 |:-|
-|Change the {Show Borders} value of {Show Borders}<br><br>__Result__<br>Show Borders|
+|Change the [Show Borders] value of [Show Borders]<br><br>__Result__<br>Show Borders|
 
 <br>
 
@@ -79,13 +114,13 @@ _(Name and description taken from the action’s Get Info dialog)_
 
 <br>
 
-|Find Bookmarks <sup>macOS – copied from iOS Shortcuts app</sup>|
+|Find Bookmarks <sup>macOS – _copy of the stock iOS action_</sup>|
 |:-|
 |__Sort by__<br>Optionally, what to sort the bookmark by.<br><br>__Order__<br>The order to sort the bookmark in.<br><br>__Limit__<br>Whether or not to limit the number of bookmark retrieved.<br><br>__Result__<br>(Bookmark) The bookmark that match the criteria.|
 
 <br>
 
-|Open Bookmark <sup>macOS – copied from iOS Shortcuts app</sup>|
+|Open Bookmark <sup>macOS – _copy of the stock iOS action_</sup>|
 |:-|
 |Opens the selected Bookmark.|
 
@@ -205,38 +240,3 @@ _(Name and description taken from the action’s Get Info dialog)_
 
 <br>
 
-### Sign the shortcut from source
-###
-macOS:
-~~~
-shortcuts sign -m anyone -i unsigned.shortcut -o signed.shortcut
-~~~
-<sup>_The command succeeds despite the errors (which aren't related to this particular shortcut)_</sup>
-
-iOS:
-\
-\
-&emsp;Use RoutineHub's signing service
-
-<br>
-
-### How to find hidden Shortcuts actions
-###
-1. Copy for example the hidden action in the following shortcut to the clipboard: https://www.reddit.com/r/ios/comments/1h8akxn/comment/m0sgf4d/
-
-3. Convert the action in the clipboard to source with this shortcut: https://www.icloud.com/shortcuts/65d36be39c5a49cc8121e4ea652b606e
-
-3. Open the source in a text editor
-
-4. Replace `AutoBrightness` with e.g. `BoldText` in the value for `WFWorkflowActionIdentifier`
-
-5. Copy the edited source to the clipboard
-
-6. Convert the clipboard content to a pasteable action with the following shortcut (requires Actions app): https://www.icloud.com/shortcuts/49dfc2487764413a88c1329703dd76d1
-
-7. Paste it into a shortcut
-###
-You've now reconstructed the unofficial _Toggle Bold Text_ action
-<br>
-<br>
-<br>
