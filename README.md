@@ -27,11 +27,11 @@ iOS:
 
 3. Convert the action in the clipboard to source with this shortcut: https://www.icloud.com/shortcuts/65d36be39c5a49cc8121e4ea652b606e
 
-3. Open the source in a text editor
+3. Open a text editor and paste the converted source code
 
 4. Replace `AutoBrightness` with e.g. `BoldText` in the value for `WFWorkflowActionIdentifier`
 
-5. Copy the edited source to the clipboard
+5. Copy the edited source code to the clipboard
 
 6. Convert the clipboard content to a pasteable action with the following shortcut (requires Actions app): https://www.icloud.com/shortcuts/49dfc2487764413a88c1329703dd76d1
 
