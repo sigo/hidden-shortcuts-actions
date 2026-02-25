@@ -35,7 +35,7 @@ iOS:
 
 6. Convert the clipboard content to a pasteable action with the following shortcut (requires Actions app): https://www.icloud.com/shortcuts/49dfc2487764413a88c1329703dd76d1
 
-7. Paste it into a shortcut
+7. Paste the action into a shortcut
 ###
 You've now reconstructed the unofficial _Toggle Bold Text_ action
 <br>
