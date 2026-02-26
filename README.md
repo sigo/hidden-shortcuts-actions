@@ -11,13 +11,12 @@ __Usage__
 4. Paste it into your own shortcut
 
 <br>
-<br>
 
 ### Safari
 
 |[Clear Safari History](https://www.icloud.com/shortcuts/fc5d20e578ab4189af9bdeed46d992d7)|
 |:-|
-|<sup>Clears history, and related cookies and other website data.<br>__Time Frame__<br>Time frame of history to clear<br>__All Profiles__<br>Whether to clear history across all profiles or only the current one<br>__Close All Tabs__<br>Whether to close all open tabs when clearing history<br>__Profile__<br>The profile for which history will be cleared for<br>[found [here](https://www.reddit.com/r/shortcuts/comments/1oyatgg/sesca_the_search_for_every_shortcut_action/)]</sup>|
+|<sup>Clears history, and related cookies and other website data.<br>__Time Frame__<br>Time frame of history to clear<br>__All Profiles__<br>Whether to clear history across all profiles or only the current one<br>__Close All Tabs__<br>Whether to close all open tabs when clearing history<br>__Profile__<br>The profile for which history will be cleared for<br>[1]</sup>|
 
 |[Find Safari Bookmarks](https://www.icloud.com/shortcuts/8c09593849c242c5bdb2b7395728ac2f)|
 |:-|
@@ -33,11 +32,11 @@ __Usage__
 
 |[New Tab in Current Group](https://www.icloud.com/shortcuts/e6fc58cd0b68458eb4bb69cfad1b18d6)|
 |:-|
-|<sup>Creates a new tab with an optional name and URL loaded, or blank if omitted.<br>[found [here](https://www.reddit.com/r/shortcuts/comments/1oyatgg/sesca_the_search_for_every_shortcut_action/)]</sup>|
+|<sup>Creates a new tab with an optional name and URL loaded, or blank if omitted.<br>[1]</sup>|
 
 |[Search Safari Tabs](https://www.icloud.com/shortcuts/bc19535ca38e458594cf84c15457da3c)|
 |:-|
-|<sup>Perform a search of tabs in Safari.<br>__Keyword__<br>The keyword to search current tabs for<br>[found [here](https://www.reddit.com/r/shortcuts/comments/1oyatgg/sesca_the_search_for_every_shortcut_action/)]</sup>|
+|<sup>Perform a search of tabs in Safari.<br>__Keyword__<br>The keyword to search current tabs for<br>[1]</sup>|
 
 <br>
 
@@ -45,7 +44,7 @@ __Usage__
 
 |[Set Shortcut Attributes](https://www.icloud.com/shortcuts/039b3c89f865494aa679545060ad2722)|
 |:-|
-|<sup>Modify a shortcut’s settings<br>__Operation__<br>The operation to perform on the setting<br>__Attribute__<br>The setting to modify<br>__Shortcut__<br>The shortcut to modify<br>__State__<br>The state to set the setting to<br>[found [here](https://www.reddit.com/r/shortcuts/comments/1oyatgg/sesca_the_search_for_every_shortcut_action/)]</sup>|
+|<sup>Modify a shortcut’s settings<br>__Operation__<br>The operation to perform on the setting<br>__Attribute__<br>The setting to modify<br>__Shortcut__<br>The shortcut to modify<br>__State__<br>The state to set the setting to<br>[1]</sup>|
 
 |[Details of Shortcut](https://www.icloud.com/shortcuts/257b8ad2b05c43dd987661f335f11fef)|
 |:-|
@@ -55,7 +54,7 @@ __Usage__
 
 |[Auto-Brightness](https://www.icloud.com/shortcuts/ddfad28314f94a82b2e1892cff4b850a)|
 |:-|
-|<sup>[iOS]<br>Change the [Auto-Brightness] value of [Auto-Brightness]<br>__Result__<br>Auto-Brightness</sup>|
+|<sup>[iOS]<br>Change the [Auto-Brightness] value of [Auto-Brightness]<br>__Result__<br>Auto-Brightness<br>[2]</sup>|
 
 |[Bold Text](https://www.icloud.com/shortcuts/330ff67345174608a18fbc69ba892946)|
 |:-|
@@ -87,7 +86,7 @@ __Usage__
 
 |[Find Focus](https://www.icloud.com/shortcuts/60127f3bc6894ea691888efdd3a8162f)|
 |:-|
-|<sup>__Sort by__<br>Optionally, what to sort the focus by.<br>__Order__<br>The order to sort the focus in.<br>__Limit__<br>Whether or not to limit the number of focus retrieved.<br>__Result__<br>(Focus) The focus that match the criteria.<br>[found [here](https://www.reddit.com/r/shortcuts/comments/1oyatgg/sesca_the_search_for_every_shortcut_action/)]</sup>|
+|<sup>__Sort by__<br>Optionally, what to sort the focus by.<br>__Order__<br>The order to sort the focus in.<br>__Limit__<br>Whether or not to limit the number of focus retrieved.<br>__Result__<br>(Focus) The focus that match the criteria.<br>[1]</sup>|
 
 |[Details of Ride Status](https://www.icloud.com/shortcuts/6b146ee85c354aa7a52f83f5522dfe62)|
 |:-|
@@ -179,6 +178,13 @@ __Usage__
 |:-|
 |<sup>Gets a specific piece of information from the Ulysses sheets passed into the action.<br>__Result__<br>(Text) The piece of information</sup>|
 
+<br>
+
+<sub>1. [Source](https://www.reddit.com/r/shortcuts/comments/1oyatgg/sesca_the_search_for_every_shortcut_action/)</sub>
+
+<sub>2. [Source](https://www.reddit.com/r/ios/comments/1h8akxn/comment/m0sgf4d/)</sub>
+
+<br>
 <br>
 
 ### How to find hidden Shortcuts actions
