@@ -1,4 +1,4 @@
-# Secret Actions
+# Hidden Shortcuts Actions
 
 __Collection of hidden actions in Shortcuts app on iOS and macOS__
 
