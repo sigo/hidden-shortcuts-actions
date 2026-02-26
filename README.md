@@ -1,23 +1,145 @@
-# Secret Actions (shortcut)
-Shortcut for iOS and macOS that contains 32 actions that are normally hidden from users in Shortcuts app
-\
-\
-[___Install latest version___](https://github.com/paralevel/secret-actions.shortcut/releases)
+# Secret Actions
+
+__Collection of hidden actions in Shortcuts app on iOS and macOS__
+
+<br>
+
+__Usage__
+1. Click the action's title to install a shortcut that contains this action
+2. Open the shortcut in Shortcuts app
+3. Copy the action
+4. Paste it into your own shortcut
+
 <br>
 <br>
 
-### Sign the shortcut from source
-###
-macOS:
-~~~
-shortcuts sign -m anyone -i unsigned.shortcut -o signed.shortcut
-~~~
-<sup>_The command succeeds despite the errors (not related to this particular shortcut)_</sup>
+|[Lock App](https://www.icloud.com/shortcuts/7fa46ae5058c4d069928c7e06596b3b3)|
+|:-|
+|<sup>Changes whether the selected application is locked. Locked apps require authentication to access.</sup>|
 
-iOS:
-\
-\
-&emsp;Use RoutineHub's signing service
+|[Auto-Brightness](https://www.icloud.com/shortcuts/ddfad28314f94a82b2e1892cff4b850a)|
+|:-|
+|<sup>[iOS]<br>Change the [Auto-Brightness] value of [Auto-Brightness]<br>__Result__<br>Auto-Brightness</sup>|
+
+|[Bold Text](https://www.icloud.com/shortcuts/330ff67345174608a18fbc69ba892946)|
+|:-|
+|<sup>[iOS]<br>Change the [Bold Text] value of [Bold Text]<br>__Result__<br>Bold Text</sup>|
+
+|[On/Off Labels](https://www.icloud.com/shortcuts/15512c8a388e47e4a64455ad00acf0d2)|
+|:-|
+|<sup>[iOS]<br>Change the [On/Off Labels] value of [On/Off Labels]<br>__Result__<br>On/Off Labels</sup>|
+
+|[Differentiate Without Color](https://www.icloud.com/shortcuts/cef71c39671b4933b30c1fcea5d050bb)|
+|:-|
+|<sup>[iOS]<br>Change the [Differentiate Without Color] value of [Differentiate Without Color]<br>__Result__<br>Differentiate Without Color</sup>|
+
+|[Show Borders](https://www.icloud.com/shortcuts/7b8b7680c8fc4ed8a669da16b6573297)|
+|:-|
+|<sup>[iOS]<br>Change the [Show Borders] value of [Show Borders]<br>__Result__<br>Show Borders</sup>|
+
+|[Unknown User Activity](https://www.icloud.com/shortcuts/8864bb8f35f2446ebb29632d646aa440)|
+|:-|
+|<sup>_No description available._</sup>|
+
+|[Details of Appearance](https://www.icloud.com/shortcuts/030b404906764c5b9eba2e356dff57b7)|
+|:-|
+|<sup>Gets a specific piece of information from the appearances passed into the action.<br>__Result__<br>(Booleans, Appearances, Text) The piece of information</sup>|
+
+|[Details of Shortcut](https://www.icloud.com/shortcuts/257b8ad2b05c43dd987661f335f11fef)|
+|:-|
+|<sup>Gets a specific piece of information from the shortcuts passed into the action.<br>__Result__<br>(Text, Images, Numbers, File sizes, Dates) The piece of information</sup>|
+
+|[Details of Shazam](https://www.icloud.com/shortcuts/5b2a0e5a20b84c53bb5f4f388abb31d9)|
+|:-|
+|<sup>Gets a specific piece of information from the Shazam media passed into the action.<br>__Result__<br>(Text, Booleans, Images, URLs) The piece of information</sup>|
+
+|[Details of Ride Status](https://www.icloud.com/shortcuts/6b146ee85c354aa7a52f83f5522dfe62)|
+|:-|
+|<sup>Gets a specific piece of information from the ride statuses passed into the action.<br>__Result__<br>(Text, Dates, Locations, Currency Amounts, Contacts) The piece of information</sup>|
+
+|[Find Bookmarks](https://www.icloud.com/shortcuts/8c09593849c242c5bdb2b7395728ac2f)|
+|:-|
+|<sup>[macOS – copy of the stock iOS action]<br>__Sort by__<br>Optionally, what to sort the bookmark by.<br>__Order__<br>The order to sort the bookmark in.<br>__Limit__<br>Whether or not to limit the number of bookmark retrieved.<br>__Result__<br>(Bookmark) The bookmark that match the criteria.</sup>|
+
+|[Open Bookmark](https://www.icloud.com/shortcuts/8f0c9870f4c54a23b4829b5619df965a)|
+|:-|
+|<sup>[macOS - copy of the stock iOS action]<br>Opens the selected Bookmark.</sup>|
+
+|[Watch Me Do](https://www.icloud.com/shortcuts/900d98a6564a45a894a5d0ad700bcdb7)|
+|:-|
+|<sup>[macOS]<br>Records and plays back mouse and keyboard events.<br>__Playback Speed__<br>Allows you to choose the playback speed of the action.</sup>|
+
+|[Upload to Imgur](https://www.icloud.com/shortcuts/be15bed49b5c4b9393548d7d8fa38168)|
+|:-|
+|<sup>Uploads the input to Imgur.<br>__Direct Link__<br>If enabled, the action will return a link to the image, and not its Imgur page.<br>__Create Album__<br>If enabled, the input images will be grouped into an album. Otherwise, the individual links will be returned.<br>__Result__<br>URLS<br>__Note__<br>Powered by Imgur (imgur.com)<br>__Requires__<br>Access to your Imgur account</sup>|
+
+|[Post to WordPress](https://www.icloud.com/shortcuts/4fcf8fafba874096b36b888d8e3a9097)|
+|:-|
+|<sup>Posts the input to a WordPress blog as a new post or page.<br>__Result__<br>(URL) The URL of the new blog post<br>__Requires__<br>Access to your WordPress account</sup>|
+
+|[Post to Tumblr](https://www.icloud.com/shortcuts/b61947a637a94192b120158a695f20d2)|
+|:-|
+|<sup>Posts the content passed into the action to Tumblr.<br>__Blog__<br>The name of the blog to post to.<br>__Result__<br>(URL) The URL of the new post<br>__Requires__<br>Access to your Tumblr account</sup>|
+
+|[Add to Pinboard](https://www.icloud.com/shortcuts/018a1ed6474448f1a40ad90795952804)|
+|:-|
+|<sup>Adds the URL passed into the action to your Pinboard. This action won't be supported in future versions of Shortcuts.<br>__Result__<br>(URL) The input<br>__Requires__<br>Access to your Pinboard account</sup>|
+
+|[Get Pinboard Bookmarks](https://www.icloud.com/shortcuts/c77470ba888c4f11bb90369b7d94663b)|
+|:-|
+|<sup>Gets bookmarks in your Pinboard account. This action won't be supported in future versions of Shortcuts.<br>__Tags__<br>If specified, only items matching all of these tags will be returned. Supports a maximum of three tags.<br>__Result__<br>URLS<br>__Requires__<br>Access to your Pinboard account</sup>|
+
+|[Add to Instapaper](https://www.icloud.com/shortcuts/2ecf5a8626ac49e49b4b498e808876d7)|
+|:-|
+|<sup>Adds the input to Instapaper.<br>__Folder__<br>This action will save your input to the specified folder. Leaving this empty will save the input to Instapaper's Home folder.<br>__Result__<br>(URLs) The input<br>__Requires__<br>Access to your Instapaper account</sup>|
+
+|[Get Instapaper Bookmarks](https://www.icloud.com/shortcuts/d8a157a231bb424ba5c5cd3ca27b5e7e)|
+|:-|
+|<sup>Gets the contents of a folder in Instapaper. Requires Instapaper Premium.<br>__Folder__<br>The folder to get bookmarks from. Leaving this empty will get items from Instapaper's Home folder.<br>__Result__<br>URLS<br>__Requires__<br>Access to your Instapaper account</sup>|
+
+|[Details of Ulysses Sheets](https://www.icloud.com/shortcuts/9439a7ea647f4722be35e9e7bd0d0127)|
+|:-|
+|<sup>Gets a specific piece of information from the Ulysses sheets passed into the action.<br>__Result__<br>(Text) The piece of information</sup>|
+
+|[Get Trello Items](https://www.icloud.com/shortcuts/148e175f037e4b76acfa950bde66903e)|
+|:-|
+|<sup>Gets cards, lists, or boards in your Trello account.<br>__Result__<br>Trello boards, Trello lists, Trello cards<br>__Requires__<br>Access to your Trello account</sup>|
+
+|[Create Trello List](https://www.icloud.com/shortcuts/65d5fb64908147a2ac002d8e8beca3e0)|
+|:-|
+|<sup>Creates a new list on the specified board in your Trello account.<br>__Result__<br>Trello list<br>__Requires__<br>Access to your Trello account</sup>|
+
+|[Add Trello Card](https://www.icloud.com/shortcuts/d8205ddc482d42759dcb663204e4f9fd)|
+|:-|
+|<sup>Creates a new card on the specified list and board in your Trello account.<br>__Attachments__<br>A list of items to be attached to the new card as files.<br>__Result__<br>Trello card<br>__Requires__<br>Access to your Trello account</sup>|
+
+|[Create Trello Board](https://www.icloud.com/shortcuts/e753f0faa107486986b7ea770c2da88a)|
+|:-|
+|<sup>Creates a new board in your Trello account.<br>__Result__<br>Trello board<br>__Requires__<br>Access to your Trello account</sup>|
+
+|[Details of Trello Item](https://www.icloud.com/shortcuts/8ece4e9eec744ad78be2bc5ed6a061af)|
+|:-|
+|<sup>Gets a specific piece of information from the Trello items passed into the action.<br>__Result__<br>(Text, URLs, Dates, Files) The piece of information<br>__Requires__<br>Access to your Trello account</sup>|
+
+|[Create New Evernote](https://www.icloud.com/shortcuts/4ec96eaf045c40ea82a8921f810fb0f5)|
+|:-|
+|<sup>Saves the input as a note in Evernote.<br>__Result__<br>Evernote note<br>__Requires__<br>Access to your Evernote account</sup>|
+
+|[Get Evernote Link I](https://www.icloud.com/shortcuts/59695f6a79a847af9b7496c0c9de3705)|
+|:-|
+|<sup>Gets a link to the Evernote note passed into the action, which can be shared.<br>__In-App Link__<br>When enabled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app.<br>__Result__<br>URLS<br>__Requires__<br>Access to your Evernote account</sup>|
+
+|[Get Evernote Link II](https://www.icloud.com/shortcuts/a1600aee78f54862b59881846643cc16)|
+|:-|
+|<sup>Gets a link to the Evernote note passed into the action, which can be shared.<br>__In-App Link__<br>When enabled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app.<br>__Result__<br>URLS<br>__Requires__<br>Access to your Evernote account</sup>|
+
+|[Delete Evernote Items](https://www.icloud.com/shortcuts/88344a874c9d4e29bc5643eaca05e781)|
+|:-|
+|<sup>Deletes the notes passed as input from Evernote.<br>__Requires__<br>Access to your Evernote account</sup>|
+
+|[Append to Evernote](https://www.icloud.com/shortcuts/be1bf22e2b4a4a998b96bd881aec477b)|
+|:-|
+|<sup>Finds a note using the specified criteria and appends the input to the note.<br>__Note Title__<br>The title (or part of the title) of the note to append to<br>__Result__<br>Evernote note<br>__Requires__<br>Access to your Evernote account</sup>|
 
 <br>
 
@@ -40,203 +162,5 @@ iOS:
 You've now reconstructed the unofficial _Toggle Bold Text_ action
 <br>
 <br>
-<br>
-
-### Complete list of actions
-_<sup>Name and description taken from the action’s Get Info dialog</sup>_
-
-<br>
-
-|Lock App|
-|:-|
-|Changes whether the selected application is locked. Locked apps require authentication to access.|
-
-<br>
-
-|Update [Auto-Brightness] <sup>iOS</sup>|
-|:-|
-|Change the [Auto-Brightness] value of [Auto-Brightness]<br><br>__Result__<br>Auto-Brightness|
-
-<br>
-
-|Update [Bold Text] <sup>iOS</sup>|
-|:-|
-|Change the [Bold Text] value of [Bold Text]<br><br>__Result__<br>Bold Text|
-
-<br>
-
-|Update [On/Off Labels] <sup>iOS</sup>|
-|:-|
-|Change the [On/Off Labels] value of [On/Off Labels]<br><br>__Result__<br>On/Off Labels|
-
-<br>
-
-|Update [Differentiate Without Color] <sup>iOS</sup>|
-|:-|
-|Change the [Differentiate Without Color] value of [Differentiate Without Color]<br><br>__Result__<br>Differentiate Without Color|
-
-<br>
-
-|Update [Show Borders] <sup>iOS</sup>|
-|:-|
-|Change the [Show Borders] value of [Show Borders]<br><br>__Result__<br>Show Borders|
-
-<br>
-
-|Unknown User Activity|
-|:-|
-|_No description available._|
-
-<br>
-
-|Get Details of Appearance
-|:-|
-|Gets a specific piece of information from the appearances passed into the action.<br><br>__Result__<br>(Booleans, Appearances, Text) The piece of information|
-
-<br>
-
-|Get Details of Shortcut|
-|:-|
-|Gets a specific piece of information from the shortcuts passed into the action.<br><br>__Result__<br>(Text, Images, Numbers, File sizes, Dates) The piece of information|
-
-<br>
-
-
-|Get Details of Shazam|
-|:-|
-|Gets a specific piece of information from the Shazam media passed into the action.<br><br>__Result__<br>(Text, Booleans, Images, URLs) The piece of information|
-
-<br>
-
-|Get Details of Ride Status|
-|:-|
-|Gets a specific piece of information from the ride statuses passed into the action.<br><br>__Result__<br>(Text, Dates, Locations, Currency Amounts, Contacts) The piece of information|
-
-<br>
-
-|Find Bookmarks <sup>macOS – _copy of the stock iOS action_</sup>|
-|:-|
-|__Sort by__<br>Optionally, what to sort the bookmark by.<br><br>__Order__<br>The order to sort the bookmark in.<br><br>__Limit__<br>Whether or not to limit the number of bookmark retrieved.<br><br>__Result__<br>(Bookmark) The bookmark that match the criteria.|
-
-<br>
-
-|Open Bookmark <sup>macOS – _copy of the stock iOS action_</sup>|
-|:-|
-|Opens the selected Bookmark.|
-
-<br>
-
-|Watch Me Do <sup>macOS</sup>|
-|:-|
-|Records and plays back mouse and keyboard events.<br><br>__Playback Speed__<br>Allows you to choose the playback speed of the action.|
-
-<br>
-
-|Upload to Imgur|
-|:-|
-|Uploads the input to Imgur.<br><br>__Direct Link__<br>If enabled, the action will return a link to the image, and not its Imgur page.<br><br>__Create Album__<br>If enabled, the input images will be grouped into an album. Otherwise, the individual links will be returned.<br><br>__Result__<br>URLS<br><br>__Note__<br>Powered by Imgur (imgur.com)<br><br>__Requires__<br>Access to your Imgur account|
-
-<br>
-
-|Post to WordPress|
-|:-|
-|Posts the input to a WordPress blog as a new post or page.<br><br>__Result__<br>(URL) The URL of the new blog post<br><br>__Requires__<br>Access to your WordPress account|
-
-<br>
-
-|Post to Tumblr|
-|:-|
-|Posts the content passed into the action to Tumblr.<br><br>__Blog__<br>The name of the blog to post to.<br><br>__Result__<br>(URL) The URL of the new post<br><br>__Requires__<br>Access to your Tumblr account|
-
-<br>
-
-|Add to Pinboard|
-|:-|
-|Adds the URL passed into the action to your Pinboard. This action won't be supported in future versions of Shortcuts.<br><br>__Result__<br>(URL) The input<br><br>__Requires__<br>Access to your Pinboard account|
-
-<br>
-
-|Get Pinboard Bookmarks|
-|:-|
-|Gets bookmarks in your Pinboard account. This action won't be supported in future versions of Shortcuts.<br><br>__Tags__<br>If specified, only items matching all of these tags will be returned. Supports a maximum of three tags.<br><br>__Result__<br>URLS<br><br>__Requires__<br>Access to your Pinboard account|
-
-<br>
-
-|Add to Instapaper|
-|:-|
-|Adds the input to Instapaper.<br><br>__Folder__<br>This action will save your input to the specified folder. Leaving this empty will save the input to Instapaper's Home folder.<br><br>__Result__<br>(URLs) The input<br><br>__Requires__<br>Access to your Instapaper account|
-
-<br>
-
-|Get Instapaper Bookmarks|
-|:-|
-|Gets the contents of a folder in Instapaper. Requires Instapaper Premium.<br><br>__Folder__<br>The folder to get bookmarks from. Leaving this empty will get items from Instapaper's Home folder.<br><br>__Result__<br>URLS<br><br>__Requires__<br>Access to your Instapaper account|
-
-<br>
-
-|Get Details of Ulysses Sheets|
-|:-|
-|Gets a specific piece of information from the Ulysses sheets passed into the action.<br><br>__Result__<br>(Text) The piece of information|
-
-<br>
-
-|Get Trello Items|
-|:-|
-|Gets cards, lists, or boards in your Trello account.<br><br>__Result__<br>Trello boards, Trello lists, Trello cards<br><br>__Requires__<br>Access to your Trello account|
-
-<br>
-
-|Create Trello List|
-|:-|
-|Creates a new list on the specified board in your Trello account.<br><br>__Result__<br>Trello list<br><br>__Requires__<br>Access to your Trello account|
-
-<br>
-
-|Add Trello Card|
-|:-|
-|Creates a new card on the specified list and board in your Trello account.<br><br>__Attachments__<br>A list of items to be attached to the new card as files.<br><br>__Result__<br>Trello card<br><br>__Requires__<br>Access to your Trello account|
-
-<br>
-
-|Create Trello Board|
-|:-|
-|Creates a new board in your Trello account.<br><br>__Result__<br>Trello board<br><br>__Requires__<br>Access to your Trello account|
-
-<br>
-
-|Get Details of Trello Item|
-|:-|
-|Gets a specific piece of information from the Trello items passed into the action.<br><br>__Result__<br>(Text, URLs, Dates, Files) The piece of information<br><br>__Requires__<br>Access to your Trello account|
-
-<br>
-
-|Create New Note|
-|:-|
-|Saves the input as a note in Evernote.<br><br>__Result__<br>Evernote note<br><br>__Requires__<br>Access to your Evernote account|
-
-<br>
-
-|Get Note Link [1]|
-|:-|
-|Gets a link to the Evernote note passed into the action, which can be shared.<br><br>__In-App Link__<br>When enabled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app.<br><br>__Result__<br>URLS<br><br>__Requires__<br>Access to your Evernote account|
-
-<br>
-
-|Get Note Link [2]|
-|:-|
-|Gets a link to the Evernote note passed into the action, which can be shared.<br><br>__In-App Link__<br>When enabled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app.<br><br>__Result__<br>URLS<br><br>__Requires__<br>Access to your Evernote account|
-
-<br>
-
-|Delete Notes|
-|:-|
-|Deletes the notes passed as input from Evernote.<br><br>__Requires__<br>Access to your Evernote account|
-
-<br>
-
-|Append to Evernote|
-|:-|
-|Finds a note using the specified criteria and appends the input to the note.<br><br>__Note Title__<br>The title (or part of the title) of the note to append to<br><br>__Result__<br>Evernote note<br><br>__Requires__<br>Access to your Evernote account|
-
 <br>
 
