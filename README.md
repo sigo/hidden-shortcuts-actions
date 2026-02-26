@@ -16,27 +16,27 @@ __Usage__
 
 |[Clear Safari History](https://www.icloud.com/shortcuts/fc5d20e578ab4189af9bdeed46d992d7)|
 |:-|
-|<sup>Clears history, and related cookies and other website data.<br>__Time Frame__<br>Time frame of history to clear<br>__All Profiles__<br>Whether to clear history across all profiles or only the current one<br>__Close All Tabs__<br>Whether to close all open tabs when clearing history<br>__Profile__<br>The profile for which history will be cleared for<br>[1]</sup>|
+|<sup>__Clears history, and related cookies and other website data.__<br>___Time Frame__<br>Time frame of history to clear<br>__All Profiles__<br>Whether to clear history across all profiles or only the current one<br>__Close All Tabs__<br>Whether to close all open tabs when clearing history<br>__Profile__<br>The profile for which history will be cleared for_<br>[1]</sup>|
 
 |[Find Safari Bookmarks](https://www.icloud.com/shortcuts/8c09593849c242c5bdb2b7395728ac2f)|
 |:-|
-|<sup>[macOS – copy of the stock iOS action]<br>__Sort by__<br>Optionally, what to sort the bookmark by.<br>__Order__<br>The order to sort the bookmark in.<br>__Limit__<br>Whether or not to limit the number of bookmark retrieved.<br>__Result__<br>(Bookmark) The bookmark that match the criteria.</sup>|
+|<sup>[macOS – copy of the stock iOS action]<br>___Sort by__<br>Optionally, what to sort the bookmark by.<br>__Order__<br>The order to sort the bookmark in.<br>__Limit__<br>Whether or not to limit the number of bookmark retrieved.<br>__Result__<br>(Bookmark) The bookmark that match the criteria._</sup>|
 
 |[Open Safari Bookmark](https://www.icloud.com/shortcuts/8f0c9870f4c54a23b4829b5619df965a)|
 |:-|
-|<sup>[macOS - copy of the stock iOS action]<br>Opens the selected Bookmark.</sup>|
+|<sup>[macOS - copy of the stock iOS action]</sup><br><sub>__Opens the selected Bookmark.__</sub>|
 
 |[Open Tab Group](https://www.icloud.com/shortcuts/a03c00999a574a8a9c0a78b92aa6282f)|
 |:-|
-|<sup>[macOS - copy of the stock iOS action]<br>Opens the selected Tab Group.<br>__Tab Group__<br>The Tab Group to be opened in Safari (App Intent parameter description)</sup>|
+|<sup>[macOS - copy of the stock iOS action]</sup><br><sub>__Opens the selected Tab Group.__</sub><br><sub>___Tab Group__<br>The Tab Group to be opened in Safari (App Intent parameter description)_</sub>|
 
 |[New Tab in Current Group](https://www.icloud.com/shortcuts/e6fc58cd0b68458eb4bb69cfad1b18d6)|
 |:-|
-|<sup>Creates a new tab with an optional name and URL loaded, or blank if omitted.<br>[1]</sup>|
+|<sup>__Creates a new tab with an optional name and URL loaded, or blank if omitted.__<br>[1]</sup>|
 
 |[Search Safari Tabs](https://www.icloud.com/shortcuts/bc19535ca38e458594cf84c15457da3c)|
 |:-|
-|<sup>Perform a search of tabs in Safari.<br>__Keyword__<br>The keyword to search current tabs for<br>[1]</sup>|
+|<sup>__Perform a search of tabs in Safari.__<br>___Keyword__<br>The keyword to search current tabs for_<br>[1]</sup>|
 
 <br>
 
@@ -44,33 +44,33 @@ __Usage__
 
 |[Set Shortcut Attributes](https://www.icloud.com/shortcuts/039b3c89f865494aa679545060ad2722)|
 |:-|
-|<sup>Modify a shortcut’s settings<br>__Operation__<br>The operation to perform on the setting<br>__Attribute__<br>The setting to modify<br>__Shortcut__<br>The shortcut to modify<br>__State__<br>The state to set the setting to<br>[1]</sup>|
+|<sup>__Modify a shortcut’s settings__<br>___Operation__<br>The operation to perform on the setting<br>__Attribute__<br>The setting to modify<br>__Shortcut__<br>The shortcut to modify<br>__State__<br>The state to set the setting to_<br>[1]</sup>|
 
 |[Details of Shortcut](https://www.icloud.com/shortcuts/257b8ad2b05c43dd987661f335f11fef)|
 |:-|
-|<sup>Gets a specific piece of information from the shortcuts passed into the action.<br>__Result__<br>(Text, Images, Numbers, File sizes, Dates) The piece of information</sup>|
+|<sup>__Gets a specific piece of information from the shortcuts passed into the action.__<br>___Result__<br>(Text, Images, Numbers, File sizes, Dates) The piece of information_</sup>|
 
 ### Settings
 
 |[Auto-Brightness](https://www.icloud.com/shortcuts/ddfad28314f94a82b2e1892cff4b850a)|
 |:-|
-|<sup>[iOS]<br>Change the [Auto-Brightness] value of [Auto-Brightness]<br>__Result__<br>Auto-Brightness<br>[2]</sup>|
+|<sup>[iOS] __Change the Auto-Brightness value of Auto-Brightness__<br>___Result__<br>Auto-Brightness_<br>[2]</sup>|
 
 |[Bold Text](https://www.icloud.com/shortcuts/330ff67345174608a18fbc69ba892946)|
 |:-|
-|<sup>[iOS]<br>Change the [Bold Text] value of [Bold Text]<br>__Result__<br>Bold Text</sup>|
+|<sup>[iOS] __Change the Bold Text value of Bold Text__<br>___Result__<br>Bold Text_</sup>|
 
 |[Show Borders](https://www.icloud.com/shortcuts/7b8b7680c8fc4ed8a669da16b6573297)|
 |:-|
-|<sup>[iOS]<br>Change the [Show Borders] value of [Show Borders]<br>__Result__<br>Show Borders</sup>|
+|<sup>[iOS] __Change the Show Borders value of Show Borders__<br>___Result__<br>Show Borders_</sup>|
 
 |[Differentiate Without Color](https://www.icloud.com/shortcuts/cef71c39671b4933b30c1fcea5d050bb)|
 |:-|
-|<sup>[iOS]<br>Change the [Differentiate Without Color] value of [Differentiate Without Color]<br>__Result__<br>Differentiate Without Color</sup>|
+|<sup>[iOS] __Change the Differentiate Without Color value of Differentiate Without Color__<br>___Result__<br>Differentiate Without Color_</sup>|
 
 |[On/Off Labels](https://www.icloud.com/shortcuts/15512c8a388e47e4a64455ad00acf0d2)|
 |:-|
-|<sup>[iOS]<br>Change the [On/Off Labels] value of [On/Off Labels]<br>__Result__<br>On/Off Labels</sup>|
+|<sup>[iOS] __Change the On/Off Labels value of On/Off Labels__<br>___Result__<br>On/Off Labels_</sup>|
 
 <br>
 
@@ -78,15 +78,15 @@ __Usage__
 
 |[Lock App](https://www.icloud.com/shortcuts/7fa46ae5058c4d069928c7e06596b3b3)|
 |:-|
-|<sup>Changes whether the selected application is locked. Locked apps require authentication to access.</sup>|
+|<sup>__Changes whether the selected application is locked. Locked apps require authentication to access.__</sup>|
 
 |[Details of Appearance](https://www.icloud.com/shortcuts/030b404906764c5b9eba2e356dff57b7)|
 |:-|
-|<sup>Gets a specific piece of information from the appearances passed into the action.<br>__Result__<br>(Booleans, Appearances, Text) The piece of information</sup>|
+|<sup>__Gets a specific piece of information from the appearances passed into the action.__<br>___Result__<br>(Booleans, Appearances, Text) The piece of information_</sup>|
 
 |[Find Focus](https://www.icloud.com/shortcuts/60127f3bc6894ea691888efdd3a8162f)|
 |:-|
-|<sup>__Sort by__<br>Optionally, what to sort the focus by.<br>__Order__<br>The order to sort the focus in.<br>__Limit__<br>Whether or not to limit the number of focus retrieved.<br>__Result__<br>(Focus) The focus that match the criteria.<br>[1]</sup>|
+|<sup>___Sort by__<br>Optionally, what to sort the focus by.<br>__Order__<br>The order to sort the focus in.<br>__Limit__<br>Whether or not to limit the number of focus retrieved.<br>__Result__<br>(Focus) The focus that match the criteria._<br>[1]</sup>|
 
 |[Details of Ride Status](https://www.icloud.com/shortcuts/6b146ee85c354aa7a52f83f5522dfe62)|
 |:-|
